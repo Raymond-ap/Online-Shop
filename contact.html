@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="./js/app.js"></script>
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- goggle fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/quaries.css" />
+    <link rel="stylesheet" href="./css/products.css" />
+    <link rel="stylesheet" href="./css/contact.css" />
+    <title>ShopOnli</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header" id="up">
+      <div class="logo">
+        <h4>shop<span>onli</span></h4>
+      </div>
+      <div class="searchbar">
+        <input type="search" class="search" placeholder="Search Products" />
+        <div class="search-result">
+          <ul>
+            <!-- result -->
+          </ul>
+        </div>
+      </div>
+      <div class="cartBox">
+        <div>
+          <i class="fas fa-shopping-cart"></i>
+          <h6>items (<span class="cartNumber">0</span>)</h6>
+        </div>
+      </div>
+    </header>
+    <nav class="nav">
+      <div class="burgerIcons">
+        <h6>menu</h6>
+        <div class="">
+          <i class="fas fa-bars"></i>
+          <i class="fas fa-times"></i>
+        </div>
+      </div>
+      <div class="links-wrapper">
+        <ul class="links">
+          <li class="single-links">
+            <a href="./index.html">home</a>
+          </li>
+          <li class="single-links">
+            <a href="./products.html">product</a>
+          </li>
+          <li class="single-links">
+            <a href="#contact">contact us</a>
+          </li>
+        </ul>
+      </div>
+      <div class="mobile-links">
+        <div class="searchbar">
+          <input type="search" class="search" placeholder="Search Products" />
+          <div class="search-result">
+            <ul>
+              <!-- result -->
+            </ul>
+          </div>
+        </div>
+        <ul class="links">
+          <li class="single-links">
+            <a href="./index.html">home</a>
+          </li>
+          <li class="single-links">
+            <a href="./products.html">product</a>
+          </li>
+          <li class="single-links">
+            <a href="#contact">contact us</a>
+          </li>
+        </ul>
+        <div class="social">
+          <h6>follow us on</h6>
+          <div>
+            <i class="fab fa-facebook"></i>
+          </div>
+          <div>
+            <i class="fab fa-twitter"></i>
+          </div>
+          <div>
+            <i class="fab fa-instagram"></i>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- END OF HEADER -->
+    <main>
+      <section class="section-contact">
+        <div class="c-info">
+          <h4>information</h4>
+          <h5>about us</h5>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum
+            dolor, reiciendis unde minus quaerat enim distinctio? Itaque
+            corrupti non harum debitis. Temporibus voluptates, labore ut, iusto
+            itaque totam ratione, in consequatur aspernatur rem laborum nobis.
+            Porro repellat culpa esse impedit. Lorem, ipsum dolor sit amet
+            consectetur adipisicing elit. Harum dolor, reiciendis unde minus
+            quaerat enim distinctio? Itaque corrupti non harum debitis.
+            Temporibus voluptates, labore ut, iusto itaque totam ratione, in
+            consequatur aspernatur rem laborum nobis. Porro repellat culpa esse
+            impedit.
+          </p>
+        </div>
+        <div class="contact-opt">
+          <div>
+            <i class="fas fa-phone"></i>
+            <p>+2330949595049</p>
+          </div>
+          <div>
+            <i class="fas fa-envelope"></i>
+            <p>example@gmail.com</p>
+          </div>
+        </div>
+        <div class="contact-form">
+          <p>contact us</p>
+          <form class="c-form">
+            <input type="name" placeholder="Name" required />
+            <input type="email" placeholder="Email here" required />
+            <textarea
+              cols="30"
+              rows="10"
+              placeholder="Message"
+              required
+            ></textarea>
+            <div>
+              <button type="submit">submit</button>
+            </div>
+          </form>
+        </div>
+      </section>
+      <!-- CART -->
+      <div class="cart-overlay">
+        <div class="cart">
+          <div class="cart-items">
+            <div class="close-cart">
+              <i class="fas fa-long-arrow-alt-left"></i>
+              <p>continue shopping</p>
+            </div>
+            <div class="cart-title">
+              <h4>shopping cart</h4>
+              <p class="cartNumber">0 items</p>
+            </div>
+            <div class="cart-items-wrap"></div>
+
+            <div class="totalprice">
+              <h3>total price <span class="t-price">$100.00</span></h3>
+            </div>
+            <div class="clear-cart">
+              <button>clear cart</button>
+            </div>
+          </div>
+          <div class="checkout">
+            <div class="cart-title">
+              <h4>Order</h4>
+            </div>
+            <div class="center">
+              <h3 class="cartNumber">items 0</h3>
+              <h3><span class="t-price">$100.00</span></h3>
+            </div>
+            <div class="checkout-wrapper">
+              <h3>delivery</h3>
+              <p>payment on delivery</p>
+              <form action="">
+                <input type="text" placeholder="Address eg(Adenta)" required />
+                <input type="tel" placeholder="Contact number" required />
+                <label for="code">Promo code</label>
+                <input
+                  type="number"
+                  id="code"
+                  placeholder="Enter Promo code"
+                  required
+                />
+                <button type="button" class="promo-code">apply</button>
+                <div class="f-submit">
+                  <div>
+                    <p>total cost</p>
+                    <hp><span class="t-price">$100.00</span></hp>
+                  </div>
+                  <button type="submit" class="check-btn">check out</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="foot1">
+        <div class="foot-content">
+          <h2>subscribe to our news letter</h2>
+          <h3>for all latest products</h3>
+        </div>
+        <div class="form">
+          <form action="">
+            <input type="email" placeholder="example@gmail.com" required />
+            <div>
+              <button type="submit">subscribe</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="foot2">
+        <div class="about">
+          <div class="logo">
+            <h4>shop<span>onli</span></h4>
+          </div>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+            a praesentium eaque, dicta natus rem expedita consequatur mollitia
+            voluptatum commodi, aperiam aliquid nobis! Quas nesciunt maxime,
+            eligendi esse hic ab nobis officia sit tenetur in fugit mollitia
+          </p>
+        </div>
+        <div class="foot-links">
+          <div class="foot-info">
+            <h5>info</h5>
+            <ul>
+              <li><a href="#">about us</a></li>
+              <li><a href="./products.html">products</a></li>
+              <li><a href="#">contact us</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="foot-links">
+          <div class="foot-info">
+            <h5>contact</h5>
+            <ul>
+              <li>
+                <i class="fas fa-phone">&nbsp; +233484048408</i>
+              </li>
+              <li>
+                <i class="fas fa-email">&nbsp; shoponli@gmail.com</i>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="foot-links">
+          <div class="foot-info">
+            <h5>social</h5>
+            <ul>
+              <li>
+                <a href="#">
+                  <i class="fab fa-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fab fa-whatsapp"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="foot3">
+        <div class="copy">
+          <p>
+            shop<span>onli</span> &copy; <span class="date"></span> All rights
+            reserved
+          </p>
+        </div>
+      </div>
+    </footer>
+    <div class="backtoTop">
+      <a href="#up">back to top</a>
+    </div>
+    <script></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/data.js"></script>
+    <script src="./js/products.js"></script>
+  </body>
+</html>

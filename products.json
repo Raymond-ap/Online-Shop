@@ -1,0 +1,174 @@
+{
+  "items": [
+    {
+      "sys": {
+        "id": "1"
+      },
+      "fields": {
+        "title": "Summer Dress",
+        "price": 10.99,
+        "des": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo quidem non maiores aperiam, corporis velit alias commodi dolore earum sint nostrum magni amet quisquam, rem facere consequatur aut dolorum eligendi?",
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./img/Optimized-SUmmer_Dress.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "2"
+      },
+      "fields": {
+        "title": "king panel bed",
+        "price": 12.99,
+        "des": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo quidem non maiores aperiam, corporis velit alias commodi dolore earum sint nostrum magni amet quisquam, rem facere consequatur aut dolorum eligendi?",
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./img/Optimized-bed-(2).jpeg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "3"
+      },
+      "fields": {
+        "title": "bed",
+        "price": 12.99,
+        "des": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo quidem non maiores aperiam, corporis velit alias commodi dolore earum sint nostrum magni amet quisquam, rem facere consequatur aut dolorum eligendi?",
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./img/Optimized-bed.jpeg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "4"
+      },
+      "fields": {
+        "title": "chair",
+        "price": 22.99,
+        "des": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo quidem non maiores aperiam, corporis velit alias commodi dolore earum sint nostrum magni amet quisquam, rem facere consequatur aut dolorum eligendi?",
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./img/Optimized-chair1.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "5"
+      },
+      "fields": {
+        "title": "Dining Table black",
+        "price": 88.99,
+        "des": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo quidem non maiores aperiam, corporis velit alias commodi dolore earum sint nostrum magni amet quisquam, rem facere consequatur aut dolorum eligendi?",
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./img/Optimized-Dining_Table_black.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "6"
+      },
+      "fields": {
+        "title": "wreck",
+        "price": 32.99,
+        "des": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo quidem non maiores aperiam, corporis velit alias commodi dolore earum sint nostrum magni amet quisquam, rem facere consequatur aut dolorum eligendi?",
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./img/Optimized-artfact.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "7"
+      },
+      "fields": {
+        "title": "comfy chair",
+        "price": 45.99,
+        "des": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo quidem non maiores aperiam, corporis velit alias commodi dolore earum sint nostrum magni amet quisquam, rem facere consequatur aut dolorum eligendi?",
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./img/Optimized-comfy-chair.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "8"
+      },
+      "fields": {
+        "title": "deco",
+        "price": 33.99,
+        "des": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo quidem non maiores aperiam, corporis velit alias commodi dolore earum sint nostrum magni amet quisquam, rem facere consequatur aut dolorum eligendi?",
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./img/Optimized-deco.jpeg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "9"
+      },
+      "fields": {
+        "title": "deco",
+        "price": 33.99,
+        "des": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo quidem non maiores aperiam, corporis velit alias commodi dolore earum sint nostrum magni amet quisquam, rem facere consequatur aut dolorum eligendi?",
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./img/Optimized-deco.jpeg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "10"
+      },
+      "fields": {
+        "title": "deco",
+        "price": 33.99,
+        "des": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo quidem non maiores aperiam, corporis velit alias commodi dolore earum sint nostrum magni amet quisquam, rem facere consequatur aut dolorum eligendi?",
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./img/Optimized-deco.jpeg"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

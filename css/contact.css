@@ -1,0 +1,81 @@
+body,
+html {
+  background: var(--container) !important;
+}
+
+.section-contact {
+  min-height: 100vh;
+  font-size: 0.8em;
+  width: 1000px;
+  margin: auto;
+}
+
+.c-info,
+.contact-opt,
+.contact-form {
+  margin: 2rem 1rem;
+}
+.c-info h4 {
+  text-transform: uppercase;
+}
+.c-info h5 {
+  padding: 1rem 0;
+  text-transform: capitalize;
+  font-size: 2em;
+}
+.c-info p {
+  line-height: 30px;
+  color: var(--line);
+  font-size: 1rem;
+}
+.contact-opt > div {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+}
+.contact-opt > div p {
+  padding: 0 1rem;
+  font-size: 1rem;
+  color: var(--line);
+}
+.contact-opt > div i {
+  font-size: 1.5rem;
+  color: var(--mainText);
+}
+
+.contact-form p {
+  font-size: 1rem;
+  padding-top: 1rem;
+  text-transform: capitalize;
+}
+.c-form {
+  padding-top: 2rem;
+  display: grid;
+  align-items: center;
+}
+.c-form input,
+.c-form textarea {
+  margin: 0.3rem;
+  padding: 0.7rem 1rem;
+  border: none;
+  outline: none;
+  background: #fff !important;
+  box-shadow: 1px 0 0 1px rgba(0, 0, 0, 0.205);
+}
+.c-form textarea {
+  resize: vertical;
+  text-transform: capitalize;
+}
+.c-form > div {
+  margin-top: 1rem;
+}
+
+.c-form > div button {
+  float: right;
+  background: var(--boderUp);
+  padding: 0.6rem 1.5rem;
+  color: var(--container);
+}
+.c-form > div button:hover {
+  background: var(--header);
+}
